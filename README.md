@@ -1,3 +1,29 @@
+# Building the environment
+
+## Installing Node.js
+
+Search the official Node.js website and install the latest version.
+
+Once the installation is complete, run [node -v ]to see if the version is displayed and see if it can be executed.
+
+```bash
+node -v
+```
+
+## Install TypeScript
+
+Install the TypeScript compiler from your terminal.
+
+```bash
+npm install -g typescript
+```
+
+Check if the tsc command can be executed using the [tsc -v] command.
+
+```bash
+tsc -v
+```
+
 # TypeScript Next.js example
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
@@ -45,30 +71,3 @@ When we run `next dev` the next time, Next.js will start looking for any `.ts` o
 Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
-
-
-# Building the environment
-
-## Installing Node.js
-
-Search the official Node.js website and install the latest version.
-
-Once the installation is complete, run [node -v ]to see if the version is displayed and see if it can be executed.
-
-```bash
-node -v
-```
-
-## Install TypeScript
-
-Install the TypeScript compiler from your terminal.
-
-```bash
-npm install -g typescript
-```
-
-Check if the tsc command can be executed using the [tsc -v] command.
-
-```bash
-tsc -v
-```
